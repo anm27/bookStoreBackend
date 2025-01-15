@@ -19,7 +19,7 @@ app.use("/api/books", bookRoutes);
 
 // Connect to MongoDB
 mongoose.connect(
-  " mongodb+srv://anmishra20:cUcE9G.zC@PcD-.@cluster0.k86ipkh.mongodb.net/bookify-db",
+  "mongodb+srv://anmishra20:cUcE9G.zC@PcD-.@cluster0.k86ipkh.mongodb.net/bookify-db",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
